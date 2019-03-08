@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TallerAngular';
+  title:string = 'Taller Angular 2019';
+  
+
+  handleClick(){
+    this.title = 'Me han presionado el botón';
+  }
 }
