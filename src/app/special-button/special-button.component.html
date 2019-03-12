@@ -1,3 +1,3 @@
-<button [style.color]="color">
-  {{text}}
+<button [style.color]="buttonProperties.color" (click)="handleClick()">
+  {{buttonProperties.text}}
 </button>
